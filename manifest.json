@@ -7,13 +7,13 @@
   "content_scripts": [
     {
       "matches": ["https://chatgpt.com/*"],
-      "js": ["content.js"],
-      "css": ["styles.css"]
+      "js": ["extension/content.js"],
+      "css": ["extension/styles.css"]
     }
   ],
   "icons": {
-    "16": "star_icon_img.png",
-    "32": "star_icon_img.png",
-    "48": "star_icon_img.png"
+    "16": "images/star_icon_img.png",
+    "32": "images/star_icon_img.png",
+    "48": "images/star_icon_img.png"
   }
 }
