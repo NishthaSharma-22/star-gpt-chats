@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Starred Chats",
+  "version": "1.0",
+  "description": "Add star markers next to ChatGPT stars",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "star_icon_img.png",
+    "32": "star_icon_img.png",
+    "48": "star_icon_img.png"
+  }
+}
